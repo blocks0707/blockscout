@@ -39,6 +39,7 @@
     <meta name="msapplication-config" content="<%= static_path(@conn, "/browserconfig.xml") %>">
     <meta name="theme-color" content="#ffffff">
 
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3403837374463852" crossorigin="anonymous"></script>
     <%= render_existing(@view_module, "_metatags.html", assigns) || render("_default_title.html") %>
 
     <script defer data-cfasync="false">
