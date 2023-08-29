@@ -161,9 +161,6 @@ defmodule BlockScoutWeb.LayoutView do
       end
 
     get_other_networks
-    |> Enum.reject(fn %{title: title} ->
-      title == subnetwork_title()
-    end)
     |> Enum.sort()
   end
 
